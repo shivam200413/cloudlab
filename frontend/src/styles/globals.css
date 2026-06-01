@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+html { color-scheme: dark; }
+body {
+  background: #0d0d14;
+  color: #e2e2f0;
+  font-family: 'Inter', ui-sans-serif, system-ui, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  min-height: 100vh;
+}
+
+::-webkit-scrollbar { width: 5px; height: 5px; }
+::-webkit-scrollbar-track { background: transparent; }
+::-webkit-scrollbar-thumb { background: #2a2a3f; border-radius: 3px; }
+
+/* Progress bars */
+.progress-track {
+  height: 4px;
+  background: #1e1e30;
+  border-radius: 2px;
+  overflow: hidden;
+}
+.progress-fill {
+  height: 100%;
+  border-radius: 2px;
+  transition: width 0.5s ease;
+}
+
+/* Card glass effect */
+.card {
+  background: #13131f;
+  border: 1px solid #1e1e30;
+  border-radius: 12px;
+}
+.card-hover {
+  transition: border-color 0.2s, box-shadow 0.2s;
+}
+.card-hover:hover {
+  border-color: #2a2a4a;
+  box-shadow: 0 0 0 1px #2a2a4a20;
+}
+
+/* Cyan glow button */
+.btn-cyan {
+  background: #00d4d4;
+  color: #0d0d14;
+  font-weight: 600;
+  border-radius: 8px;
+  transition: background 0.15s, box-shadow 0.15s;
+}
+.btn-cyan:hover {
+  background: #00bcbc;
+  box-shadow: 0 0 20px #00d4d440;
+}
+.btn-cyan:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+/* Mono text for tags/codes */
+.mono { font-family: 'JetBrains Mono', monospace; }
+
+/* Running status dot */
+.status-running { color: #00e676; }
+.status-stopped { color: #4a4a6a; }
+.status-provisioning { color: #ffab40; }
+
+/* Sidebar active item */
+.nav-active {
+  background: #00d4d415;
+  border: 1px solid #00d4d430;
+  color: #00d4d4;
+}
