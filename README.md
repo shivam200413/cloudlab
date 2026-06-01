@@ -2,6 +2,12 @@
 
 A self-hosted, browser-based coding workspace platform built on AWS Free Tier. Spin up VS Code (code-server) environments in seconds from a sleek dark-mode dashboard.
 
+<img width="1910" height="878" alt="Screenshot 2026-06-01 112759" src="https://github.com/user-attachments/assets/da4507a8-6ac9-401d-956a-5189cc88c672" />
+<img width="1915" height="865" alt="Screenshot 2026-06-01 112818" src="https://github.com/user-attachments/assets/0e6372be-f93b-436e-8d4a-28d564c52915" />
+<img width="1131" height="867" alt="Screenshot 2026-06-01 112842" src="https://github.com/user-attachments/assets/2a00fe9c-cd36-4278-b772-95ac35e6449d" />
+
+
+
 ![CloudLab Dashboard](https://img.shields.io/badge/Status-Live-00d4d4?style=for-the-badge)
 ![AWS Free Tier](https://img.shields.io/badge/AWS-Free%20Tier-orange?style=for-the-badge&logo=amazon-aws)
 ![Docker](https://img.shields.io/badge/Docker-Containerized-2496ED?style=for-the-badge&logo=docker)
